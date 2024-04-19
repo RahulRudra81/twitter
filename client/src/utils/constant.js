@@ -24,4 +24,5 @@ export const timeSince = (timestamp) => {
       return `${count} ${i}${count > 1 ? "s" : ""} ${suffix}`;
     }
   }
+  return "Just Now";
 };
